@@ -1,0 +1,31 @@
+.inner {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: lightblue;
+}
+
+a {	
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+.header-items {
+    margin-left: auto;
+}
+  
+.header-items ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+  
+.header-items ul li:not(:nth-child(1)) {
+    margin-left: 48px;
+}
