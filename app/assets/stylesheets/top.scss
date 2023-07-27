@@ -19,13 +19,13 @@ a {
 .header-items {
     margin-left: auto;
 }
-  
+
 .header-items ul {
     list-style: none;
     margin: 0;
     display: flex;
 }
-  
+
 .header-items ul li:not(:nth-child(1)) {
     margin-left: 48px;
 }
